@@ -1,0 +1,16 @@
+{
+  "name": "LearnGrunt",
+  "version": "0.1.0",
+  "description": "Learning Grunt JS for front-end development tasks automation.",
+  "author": "Shekhar",
+  "dependencies": {
+		"grunt" :                       "*",
+		"grunt-contrib-cssmin":			"*",
+		"grunt-contrib-less":			"*",
+        "grunt-contrib-uglify":         "*",
+        "grunt-contrib-watch":          "*",
+        "grunt-htmlhint":               "*",
+        "matchdep":                     "*"
+  },
+  "private": true
+}
