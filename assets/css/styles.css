@@ -1,7 +1,7 @@
 /* ==|== primary styles =====================================================
     It Fits - HTML5/CSS3 Responsive template
 	@shekhardesigner
-	April 26th, 2012
+	April 26th, 2012 <Updating Media Queries >
 	Modified on: Nov 25, 2013
 	Released under Creative Common License
 	Original post:  http://www.cssjunction.com/freebies/html5-css3-responsive-web-template
@@ -657,7 +657,7 @@ footer[role=contentinfo] p .left {
 /*
 	RESPONSIVE STYLES
 */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
   h2.orphan {
     margin: 0 5% 20px;
     width: 90%;
