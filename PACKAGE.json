@@ -6,6 +6,7 @@
   "dependencies": {
 		"grunt" :                       "*",
 		"grunt-contrib-cssmin":			"*",
+		"grunt-contrib-less":			"*",
         "grunt-contrib-uglify":         "*",
         "grunt-contrib-watch":          "*",
         "grunt-htmlhint":               "*",
