@@ -1,16 +1,36 @@
 {
-  "name": "LearnGrunt",
-  "version": "0.1.0",
-  "description": "Learning Grunt JS for front-end development tasks automation.",
-  "author": "Shekhar",
+  "name": "It-Fits",
+  "version": "1.0.1",
+  "description": "HTML5 CSS3 Responsive Template ",
+  "main": "Index.html",
   "dependencies": {
-		"grunt" :                       "*",
-		"grunt-contrib-cssmin":			"*",
-		"grunt-contrib-less":			"*",
-        "grunt-contrib-uglify":         "*",
-        "grunt-contrib-watch":          "*",
-        "grunt-htmlhint":               "*",
-        "matchdep":                     "*"
+    "grunt": "^0.4.2",
+    "grunt-htmlhint": "^0.4.0",
+    "grunt-contrib-less": "^0.8.2",
+    "grunt-contrib-cssmin": "^0.7.0",
+    "grunt-contrib-uglify": "^0.2.7",
+    "grunt-contrib-watch": "^0.5.3",
+    "matchdep": "^0.3.0"
   },
-  "private": true
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cssjunction/It-Fits"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "RWD",
+    "Responsive",
+    "Web"
+  ],
+  "author": "Shekhar Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cssjunction/It-Fits/issues"
+  },
+  "homepage": "https://github.com/cssjunction/It-Fits"
 }
