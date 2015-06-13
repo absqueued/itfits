@@ -1,11 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
+@import url('normalize.css');
 /* ==|== primary styles =====================================================
     It Fits - HTML5/CSS3 Responsive template
 	@shekhardesigner
-	April 26th, 2012 <Updating Media Queries >
-	Modified on: Nov 25, 2013
-	Released under Creative Common License
 	Original post:  http://www.cssjunction.com/freebies/html5-css3-responsive-web-template
    ========================================================================== */
+/*================================================
+    TYPES
+================================================*/
 /*================================================
     RESET
 ================================================*/
@@ -27,15 +30,21 @@ textarea {
   text-shadow: none;
 }
 body {
-  font: 13px/1.4em Helvetica, Arial, Tahoma;
+  font: 1em/1.4 'Podkova', Helvetica, Arial, Tahoma, Serif;
 }
 h1,
 h2 {
-  font-family: 'Oswald', 'Century Gothic', 'Trebuchet MS', Tahoma;
+  font-family: 'Open Sans', 'Century Gothic', Tahoma, Serif;
+  font-weight: bold;
 }
 h3,
 h4 {
-  font-family: Helvetica, Arial, Tahoma;
+  font-family: 'Open Sans', 'Century Gothic', Tahoma, Serif;
+  color: #10253d;
+}
+h3,
+h4 {
+  font-family: 'Open Sans', 'Century Gothic', Tahoma, Serif;
   color: #10253d;
 }
 h1 {
@@ -86,7 +95,7 @@ strong {
 ================================================*/
 .container {
   margin: 0 auto;
-  width: 960px;
+  width: 1170px;
 }
 span.icon {
   text-transform: none !important;
@@ -97,11 +106,13 @@ header {
 }
 #logo {
   color: #3891cf;
-  font: 30px 'Oswald', 'Century Gothic', 'Trebuchet MS', Tahoma;
+  font: 30px 'Open Sans', 'Century Gothic', Tahoma, Serif;
+  font-weight: bold;
   height: 32px;
   display: block;
   float: left;
   margin: 15px 0 0;
+  text-transform: uppercase;
 }
 #logo .icon {
   padding-right: 5px;
@@ -132,7 +143,7 @@ header {
 .social-icons li a.icon:hover,
 .social-icons li a.icon:focus,
 .social-icons li a.iconactive {
-  background: #41b7d8;
+  background: #3891cf;
 }
 .social-icons li a.icon.flip {
   -moz-transform: scaleY(-1);
@@ -150,7 +161,7 @@ ul[role=navigation] {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font: 0.9em/1.67em Helvetica, Arial, Tahoma;
+  font: 0.9em/1.67em 'Podkova', Helvetica, Arial, Tahoma, Serif;
   text-transform: uppercase;
 }
 ul[role=navigation] li {
@@ -159,7 +170,7 @@ ul[role=navigation] li {
   margin: 0 0 0 10px;
 }
 ul[role=navigation] li a {
-  background: #41b7d8;
+  background: #3891cf;
   border: 1px solid #2495b4;
   border-bottom: 0;
   -moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.3) inset;
@@ -191,32 +202,32 @@ section[role=banner] {
   background: url(../images/light-pattern.png);
   border-bottom: 1px solid #dfe9f2;
 }
-section[role=banner] hgroup {
+section[role=banner] > header {
   background: url(../images/leather-pattern.png);
   -moz-box-shadow: inset rgba(0, 0, 0, 0.1) 0 10px 10px, rgba(255, 255, 255, 0.7) 0 10px 10px;
   -webkit-box-shadow: inset rgba(0, 0, 0, 0.1) 0 10px 10px, rgba(255, 255, 255, 0.7) 0 10px 10px;
   box-shadow: inset rgba(0, 0, 0, 0.1) 0 10px 10px, rgba(255, 255, 255, 0.7) 0 10px 10px;
-  border-top: 4px dotted #444;
-  border-bottom: 4px dotted #444;
+  border-top: 2px dotted #5e5e5e;
+  border-bottom: 4px dotted #5e5e5e;
   margin: 0 0 30px;
   padding: 20px 0;
 }
-section[role=banner] hgroup h1,
-section[role=banner] hgroup h2 {
+section[role=banner] > header > h1,
+section[role=banner] > header > p {
   margin: 0 auto;
-  width: 960px;
+  width: 1170px;
   color: #ffcc44;
-  font: bold 30px Helvetica, Arial, Tahoma;
+  font: bold 30px 'Podkova', Helvetica, Arial, Tahoma, Serif;
   text-align: center;
   text-shadow: #000 0 1px 0;
 }
-section[role=banner] hgroup h2 {
+section[role=banner] > header > p {
   font-size: 20px;
   font-weight: normal;
 }
 section[role=banner] article[role=main] {
   margin: 0 auto;
-  width: 960px;
+  width: 1170px;
   padding: 0 0 30px;
 }
 section[role=banner] article[role=main] .post {
@@ -225,9 +236,9 @@ section[role=banner] article[role=main] .post {
   color: #222;
 }
 section[role=banner] article[role=main] .post h2 {
-  font-size: 40px;
+  font-size: 3em;
+  line-height: 1;
   margin: 0 0 10px;
-  text-shadow: rgba(0, 0, 0, 0.8) 0 1px 0;
 }
 section[role=banner] article[role=main] aside {
   -moz-border-radius: 5px;
@@ -275,7 +286,7 @@ section[role=banner] article[role=main] aside img {
   border-radius: 2px;
   color: White;
   display: block;
-  font: bold 22px 'Oswald', 'Century Gothic', 'Trebuchet MS', Tahoma;
+  font: bold 22px 'Open Sans', 'Century Gothic', Tahoma, Serif;
   word-spacing: 3px;
   padding: 10px 15px;
   text-align: center;
@@ -357,10 +368,9 @@ section[role=banner] article[role=main] aside img {
 .columns article {
   border-right: 1px solid #dfe9f2;
   display: table-cell;
-  font-size: 0.85em;
-  line-height: 1.8em;
   width: 21%;
   padding: 30px 2%;
+  vertical-align: top;
 }
 .columns article:first-child {
   padding-left: 0;
@@ -370,11 +380,10 @@ section[role=banner] article[role=main] aside img {
   padding-right: 0;
 }
 .columns article h3 {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 1.4em;
   padding: 0;
-  margin: 0;
-  color: #222;
+  margin: 0 0 0.5em;
+  color: #444;
 }
 .columns article h3 span {
   padding-right: 5px;
@@ -395,21 +404,7 @@ section[role=banner] article[role=main] aside img {
   border: 0;
   border-top: 4px solid #3891cf;
   margin: 0 0 15px;
-  width: 204px;
-  -moz-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.columns figure img:hover {
-  -webkit-transform: scale(1.1) rotate(-5deg);
-  -moz-transform: scale(1.1) rotate(-5deg);
-  transform: scale(1.1) rotate(-5deg);
-}
-.columns figure img.alt-col:hover {
-  -webkit-transform: scale(1.1) rotate(5deg);
-  -moz-transform: scale(1.1) rotate(5deg);
-  transform: scale(1.1) rotate(5deg);
+  width: 100%;
 }
 .foo-slogan {
   overflow: hidden;
@@ -418,10 +413,8 @@ section[role=banner] article[role=main] aside img {
 .foo-slogan h2 {
   float: left;
   width: 680px;
-  font: bold 28px/1em Helvetica, Arial, Tahoma;
   color: #3891cf;
   margin: 0;
-  text-shadow: rgba(0, 0, 0, 0.1) 0 2px 0;
 }
 .foo-slogan .button {
   float: right;
@@ -485,7 +478,7 @@ section[role=banner] article[role=main] aside img {
 }
 .sort-bar {
   border-bottom: 1px dotted #dfe9f2;
-  font: 12px/18px Helvetica, Arial, Tahoma;
+  font: 12px/18px 'Podkova', Helvetica, Arial, Tahoma, Serif;
   margin: 0 0 30px;
   padding: 10px 0;
 }
@@ -495,7 +488,7 @@ section[role=banner] article[role=main] aside img {
 .sort-bar a:hover,
 .sort-bar a:focus,
 .sort-bar a:active {
-  color: #41b7d8;
+  color: #3891cf;
 }
 .more-link {
   color: #333;
@@ -512,24 +505,24 @@ section[role=banner] article[role=main] aside img {
   float: left;
   margin: 0 20px 30px 0;
   list-style: none;
-  width: 225px;
+  width: 277px;
 }
 .thumb-list li:nth-child(4n) {
   margin-right: 0;
 }
-.thumb-list li h3 {
-  font-size: 18px;
-  color: #41b7d8;
-}
-.thumb-list li h3 a {
-  color: #41b7d8;
-}
-.thumb-list li h3 a:hover,
-.thumb-list li h3 a:focus,
-.thumb-list li h3 a:active {
+.thumb-list li > h3 {
+  font-size: 1.5em;
   color: #3891cf;
 }
-.thumb-list li figure a {
+.thumb-list li > h3 a {
+  color: #3891cf;
+}
+.thumb-list li > h3 a:hover,
+.thumb-list li > h3 a:focus,
+.thumb-list li > h3 a:active {
+  color: #3891cf;
+}
+.thumb-list li > figure a {
   border: 1px solid #dfe9f2;
   display: block;
   margin: 0 0 10px;
@@ -540,35 +533,11 @@ section[role=banner] article[role=main] aside img {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.thumb-list li figure a:after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  content: '';
-  display: block;
-  background: -moz-linear-gradient(-45deg, #ffffff 0%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0) 45%);
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(45%, rgba(255, 255, 255, 0.3)), color-stop(45%, rgba(255, 255, 255, 0)));
-  background: -webkit-linear-gradient(-45deg, #ffffff 0%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0) 45%);
-  background: -o-linear-gradient(-45deg, #ffffff 0%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0) 45%);
-  background: -ms-linear-gradient(-45deg, #ffffff 0%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0) 45%);
-  background: linear-gradient(-45deg, #ffffff 0%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0) 45%);
-  -moz-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.thumb-list li figure a:hover:after,
-.thumb-list li figure a:focus:after,
-.thumb-list li figure a:active:after {
-  left: -225px;
-  top: -120px;
-}
-.thumb-list li figure img {
-  backgroud: white;
+.thumb-list li > figure img {
+  background: white;
   display: block;
   padding: 4px;
+  width: calc(100% - 8px);
 }
 aside[role=complementary] {
   background: #f0f0f0;
@@ -578,11 +547,8 @@ aside[role=complementary] {
   width: 180px;
 }
 aside[role=complementary] h2 {
-  font-size: 16px;
+  font-size: 1.4em;
   color: black;
-}
-aside[role=complementary] p {
-  font-size: 11px;
 }
 .content {
   display: table-cell;
@@ -646,8 +612,8 @@ footer[role=contentinfo] {
 }
 footer[role=contentinfo] p {
   margin: 0 auto;
-  width: 960px;
-  font: 11px/16px Helvetica, Arial, Tahoma;
+  width: 1170px;
+  font: 11px/16px 'Podkova', Helvetica, Arial, Tahoma, Serif;
   text-align: right;
   overflow: hidden;
 }
@@ -657,7 +623,21 @@ footer[role=contentinfo] p .left {
 /*
 	RESPONSIVE STYLES
 */
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+  section[role=banner] article[role=main] {
+    width: 970px;
+  }
+  .thumb-list li {
+    width: 225px;
+  }
+}
 @media only screen and (max-width: 960px) {
+  body {
+    font-size: 0.8125em;
+  }
   h2.orphan {
     margin: 0 5% 20px;
     width: 90%;
@@ -718,14 +698,13 @@ footer[role=contentinfo] p .left {
     font-size: 22px;
     vertical-align: text-bottom;
   }
-  section[role=banner] hgroup h1,
-  section[role=banner] hgroup h2 {
-    width: 100%;
-    font: bold 24px Helvetica, Arial, Tahoma;
+  section[role=banner] > header > h1,
+  section[role=banner] > header > p {
+    font: bold 24px 'Podkova', Helvetica, Arial, Tahoma, Serif;
     padding: 0 5%;
     width: 90%;
   }
-  section[role=banner] hgroup h2 {
+  section[role=banner] > header > p {
     font-size: 16px;
     margin-top: 15px;
   }
@@ -733,14 +712,16 @@ footer[role=contentinfo] p .left {
     width: 100%;
     padding: 0 0 30px;
   }
-  section[role=banner] article[role=main] h2 {
-    line-height: 1.2em;
-  }
   section[role=banner] article[role=main] .post,
   section[role=banner] article[role=main] aside {
     float: none;
     width: 90%;
     margin: 0 5%;
+  }
+  section[role=banner] article[role=main] .post h2,
+  section[role=banner] article[role=main] aside h2 {
+    line-height: 1.2em;
+    font-size: 2.3em;
   }
   section[role=banner] article[role=main] aside {
     display: none;
@@ -841,7 +822,7 @@ footer[role=contentinfo] p .left {
   .foo-slogan h2 {
     float: none;
     width: 100%;
-    font: bold 22px/1em Helvetica, Arial, Tahoma;
+    font: bold 22px/1em 'Podkova', Helvetica, Arial, Tahoma, Serif;
     margin: 0 0 15px;
   }
   .foo-slogan .button {
@@ -938,3 +919,4 @@ footer[role=contentinfo] p .left {
   width: 680px;
   float: left;
 }
+/*# sourceMappingURL=assets/css/styles.css.map */
