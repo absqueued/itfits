@@ -46,7 +46,7 @@ module.exports = function (grunt) {
         cssmin: {
             add_banner: {
                 options: {
-                    banner: '/* It-Fits minified css file */',
+                    banner: '/* It-Fits Styles, Version 2.0.0  */',
                     processImport: false
                 },
                 files: {
