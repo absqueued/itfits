@@ -5,9 +5,9 @@ IT FITS
 
 Its an HTML5 CSS3 Responsive Template, with 5 pages excluding 404 page. This template has something not just merely HTML5 new tags, it’s coded using WAI-ARIA roles for enhanced quality. Uses very less images, taking benefits from CSS3 features. Even icons are fonts – hmm super fast page loading.
 
-**Demo**: http://expiredqueues.github.io/It-Fits
+**Demo**: https://absqueued.github.io/itfits/
 
-**Blog**: http://www.expiredqueues.com/freebies/html5-css3-responsive-web-template/
+**Blog**: https://www.expiredqueues.com/freebies/html5-css3-responsive-web-template/
 
 ##Browser Support:
  - Google Chrome
